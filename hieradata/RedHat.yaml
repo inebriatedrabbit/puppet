@@ -7,6 +7,6 @@ redhat_users:
     ensure: present
     home:   /home/spice
     uid:    1001
-    groups: wheel, users
+    groups: ['wheel','users']
     shell:  /bin/bash
 
