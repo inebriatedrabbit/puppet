@@ -1,2 +1,1 @@
-# puppet
-Puppet testing
+Puppet OpenSCAP Content
