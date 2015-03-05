@@ -2,3 +2,6 @@
 redhat_packages:
   xterm:
     ensure: latest 
+redhat_users:
+  spice:
+    ensure: present
