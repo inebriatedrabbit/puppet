@@ -1,0 +1,4 @@
+---
+redhat_packages:
+  xterm:
+    ensure: latest 

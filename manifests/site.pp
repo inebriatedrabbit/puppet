@@ -1,3 +1,1 @@
-include users
-include services
-include packages
+include pkgs
