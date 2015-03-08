@@ -2,6 +2,8 @@
 redhat_packages:
   xterm:
     ensure: latest 
+  mlocate:
+    ensure: latest 
 redhat_users:
   spice:
     ensure: present
