@@ -1,6 +1,5 @@
 Facter.add('webserver') do
 	setcode do
-		httpd=`/bin/rpm -q httpd || false`
-		'httpd'
+		Facter::Core::Execution.exec('/bin/rpm -q httpd &>/dev/null && echo true || echo false')
 	end
 end
